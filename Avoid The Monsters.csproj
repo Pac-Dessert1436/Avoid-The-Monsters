@@ -1,0 +1,18 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>AvoidTheMonsters</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VBLibrary">
+      <HintPath>./VBLibrary/bin/Debug/netcoreapp3.1/VBLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Core">
+      <HintPath>Microsoft.VisualBasic.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

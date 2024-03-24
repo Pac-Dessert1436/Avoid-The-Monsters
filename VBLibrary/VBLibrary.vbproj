@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VBLibrary</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="GodotSharp">
+			<HintPath>GodotSharp.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	
+</Project>

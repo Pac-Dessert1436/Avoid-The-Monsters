@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/House In a Forest Loop.mp3-1c2a4cd264607adb3b162ab548a6a80f.mp3str"
+
+[deps]
+
+source_file="res://art/House In a Forest Loop.mp3"
+dest_files=[ "res://.import/House In a Forest Loop.mp3-1c2a4cd264607adb3b162ab548a6a80f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
