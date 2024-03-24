@@ -3,7 +3,7 @@ This video game is my very first full-fledged project, derived from the section 
 Godot 3.5.3 documentation. _I usually engage in game development as a hobby for myself, to be honest._
 
 Many an element in this project is slightly adjusted, and all of the game code is rewritten in Visual Basic .NET,
-which is currently my favorite programming language, even though I enjoy writing C# scripts in Godot as well.
+which is currently my favorite programming language, even though I also enjoy writing C# scripts in Godot.
  ___Getting started with VB.NET in Godot requires ".NET Core 3.1 SDK", which is really important.___
 
 All the classes defined in the VB.NET library are bound to be inherited by empty C# stripts, so that they can be
