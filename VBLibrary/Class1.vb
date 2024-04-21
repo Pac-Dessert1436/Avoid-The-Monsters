@@ -146,17 +146,7 @@ Namespace AvoidTheMonsters
             GetNode(Of Timer)("MessageTimer").Start()
         End Sub
 
-        Public Async Sub ShowGameOver()
-            ShowMessage("End of Game")
-            Dim messageTimer = GetNode(Of Timer)("MessageTimer")
-            Await ToSignal(messageTimer, "timeout")
-            Dim message = GetNode(Of Label)("Message")
-            message.Text = "Avoid the
-Monsters!"
-            message.Show()
-            Await ToSignal(GetTree().CreateTimer(1), "timeout")
-            GetNode(Of Button)("StartButton").Show()
-        End Sub
+        Public MustOverride Sub ShowGameOver()
 
         Public Sub UpdateScore(score As Integer)
             GetNode(Of Label)("ScoreLabel").Text = score.ToString()
